@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #333333;
+    background-size: cover;
+    background-position: center center;
+    font-smooth: antialiased;
+    height: 100%;
+}
+
+.logo-container {
+    width: 100%;
+    text-align: center;
+    left: 30%;
+}
+
+.th3 {
+    color: #fff;
+    
+    font-size: 12px;
+}
+
+.th3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#loading {
+    font-size: 50px;
+}
+
+.chat-box {
+    margin: 0 auto;
+
+    
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+.th3 {
+    width: 100%;
+    text-align: center;
+}
+
+.chat-box-header {
+    background-color: #666666;
+    color: #ffffff;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.chat-box-body {
+    padding: 16px;
+    overflow-y: auto;
+    height: calc(100% - 145px);
+}
+
+.chat-box-body .message,
+.chat-box-body .response {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.chat-box-body .message {
+    background-color: #e6e6e6;
+    color: #333333;
+}
+
+.chat-box-body .response {
+    background-color: #666666;
+    color: #ffffff;
+    text-align: right;
+}
+
+.chat-box-footer {
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e6e6e6;
+    padding: 8px 16px;
+}
+
+.chat-box-footer input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 2px solid #e6e6e6;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.chat-box-footer button {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background-color: #666666;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.chat-box-footer button:hover {
+    background-color: #444444;
+}
+
+.chat-box-footer button:active {
+    background-color: #333333;
+}
