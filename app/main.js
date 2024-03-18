@@ -69,6 +69,8 @@ function getCustomResponse(message) {
     return "Bye! Have a nice day!";
   } else if (lowerCaseMessage.includes("who created you")) {
     return "I was created by Th3-C0ders.";
+  } else if (lowerCaseMessage.includes("what is your name") || lowerCaseMessage.includes("who are you")) {
+    return "I Am Th3-GPT, Your Friendly Assistant. I Was Created By Th3-C0der's";
   }
   return null;
 }
